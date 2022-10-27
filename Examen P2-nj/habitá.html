@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitá</title>
+    <link rel="icon" type="image/png" href="/assets/favicon_Mesa de trabajo 1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!--Para darle estilo a la pag-->
+        <link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+  <!--HEADER/NAV-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <!--IMG en navbar-->
+            <img class="icona" src="/assets/favicon_Mesa de trabajo 1.png" width="50px" height="50px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dormitorio</a></li>
+                <li><a class="dropdown-item" href="#">Sala</a></li>
+                <li><a class="dropdown-item" href="#">Cocina</a></li>
+                <li><a class="dropdown-item" href="#">Baño</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+<!--Carrusel-->
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/Carrusel bien1_Mesa de trabajo 1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/carrusel bien 3-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tu lúgar favorito</h5>
+            <p>Que no salir de casa sea bueno.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/imagen2-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cosas que necesitas y aún no sabes</h5>
+            <p class="Carrusell">Algunas cosas utiles que haran tu hogar más acojedor.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- PLACEHOLDER-->
+    <div class="container marketing">
+  
+      <div class="row">
+        <div class="col-lg-4">
+           <!--IMG CONTEMPORANEO-->
+           <img class="conte" src="/assets/contemporaneo.png"><img>
+          
+          <h2 class="fw-normal">Contemporaneo</h2>
+          <p>Una evolución del estilo tradicional, en base a las modas.</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+
+           <!--IMG Minimalismo-->
+           <img class="conte" src="/assets/minimalista.png"><img>
+          <h2 class="fw-normal">Minimalismo.</h2>
+          <p> Por que <em>Menos es más.</em> </p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+
+          <!--IMG RUSTICO-->
+          <img class="conte" src="/assets/rustico.png"><img>
+          <h2 class="fw-normal">Rustico</h2>
+          <p>¿Te gusta la sencillez y naturalidad. Los muebles <em>rusticos</em> son para ti.</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+      </div>
+  
+  
+      <!-- SCOMIENZA IMAGENES GRANDES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1"> Lo clásico. <span class="text-muted">No pasa de moda.</span></h2>
+          <p class="lead">Encontrar la pieza perfecta nunca es una tarea fácil. Por eso, Habitá crea muebles y accesorios hermosos y elegantes para tu hogar. Puede navegar a través de nuestros diseños y encontrar exactamente lo que está buscando. Entonces, ya sea que esté buscando un sofá, una silla o incluso una mesa, ¡tenemos todo lo que necesita para que su espacio pase de ser bueno a ser excelente!.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/501.jpg">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Estar afuera. <span class="text-muted">Nunca se sintio tan bien.</span></h2>
+          <p class="lead">Una colección de muebles para el exterior que combina calidad, estilo y resistencia. Aproveche los espacios naturales del jardín con estos elementos decorativos..</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/assets/502.jpg">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">¡ Que se haga la luz !. <span class="text-muted">Y relajate.</span></h2>
+          <p class="lead">Tranquilidad y reflectores para tu hogar, una vida llena de luz y calidez que te conecta como si te perteneciera..</p>
+        </div>
+        <div class="col-md-5">
+         <img src="/assets/503.jpg">
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+    </div>
+        
+<!--FOOTER-->
+<footer class="container">
+<!--
+  <div class="card">
+    <h5 class="card-header">¡Contactanos!</h5>
+    <div class="card-body">
+      <h5 class="card-title">Contacto</h5>
+      <p class="card-text">habitá@gmail.com</p>
+      <p class="card-text">Tel- 3314 678 237</p>
+      <p class="card-text">Ecuentranos en : Av. Providencia 2590 Col. Providencia, 442 Guadalajara, Jalisco
+        442 Guadalajara, Jalisco
+        México</p>
+      <a href="#" class="btn btn-primary">Enviar</a>
+    </div>
+  </div>
+  -->
+  <p class="float-end"><a href="#">Volver al inicio</a></p>
+  <p>¡Contactanos!</p>
+  <a href="mailto:a.nicolejuarez08@gmail.com">habitá@example.com</a></p>
+  <p>&copy; 2022 Andrea Nicole Juárez. &middot; <a href="#">Contacto</a> &middot; <a href="#">Terminos </a></p>
+</footer>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
